@@ -89,7 +89,9 @@ while not done:
 
     counter += 1
     if counter > 15: break
+
 print_grid(my_state.grid)
+if counter > 15: print('Your agent has probably entered a loop and will not be able to complete the game. Aborting mission.')
 
 ################
 # What I learn #
