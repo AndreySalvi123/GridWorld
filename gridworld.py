@@ -3,6 +3,7 @@ CAR = "c"
 ICE_CREAM = "i"
 EMPTY = "*"
 ZOMBIE_CAR = "zc"
+CAR_ZOMBIE = "cz"
 ICE_CREAM_CAR = "ic"
 
 ITEMS = {
@@ -11,6 +12,7 @@ ITEMS = {
     ICE_CREAM: 'ICE_CREAM', 
     EMPTY: '',
     ZOMBIE_CAR : 'YOU DIE',
+    CAR_ZOMBIE : 'YOU DIE',
     ICE_CREAM_CAR: 'YOU WIN'
 }
 
